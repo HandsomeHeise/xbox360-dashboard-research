@@ -13,8 +13,9 @@
     "layout_counts": {
       "sidebar-with-native-options": 1,
       "two-pane-list": 11,
-      "native-form-with-custom-surfaces": 90,
-      "helper": 15
+      "native-form-with-custom-surfaces": 89,
+      "helper": 15,
+      "network-status": 1
     },
     "resources": [
       {
@@ -2021,7 +2022,7 @@
         "provider": "network",
         "member": "NetworkMain.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "network-status",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },

@@ -12,13 +12,13 @@ Snapshot: 2026-10-25. Target: Retail 17559. Other dashboard versions require sep
 
 ## Coverage
 
-The retained manifest contains 363 dashboard XUR resources: 117 explicit scene replacements, 4 existing boot/sign-in replacements and 242 awaiting individual review. Among the 117 are 15 helpers, 11 two-pane lists, 1 category sidebar/native option workspace and 90 native forms/grids with custom surfaces. Scoped providers: consoles 59, network 30, memory 22, gamer 5, gamercar 1.
+The retained manifest contains 363 dashboard XUR resources: 117 explicit scene replacements, 4 existing boot/sign-in replacements and 242 awaiting individual review. Among the 117 are 15 helpers, 11 two-pane lists, 1 category sidebar/native option workspace and 1 network status composition and 89 native forms/grids with custom surfaces. Scoped providers: consoles 59, network 30, memory 22, gamer 5, gamercar 1.
 
 Another addition contains 15 GamerProfile resources. The Guide table now has 72 members, counted separately from dashboard resources. Private hub tabs replace behavior without one-to-one native resource substitution. Never report these figures as numbers of independent menus.
 
 ## Verification progression
 
-An earlier checkpoint recorded 142 host tests, an Xbox Release build, 117 scene round trips, allocation/grid checks and archive readbacks. Later route/message regressions brought the reported total to 150 passing host tests. The latest list/network checkpoint passed 153 host tests, an Xbox Release build with no warnings/errors, 117 replacement round trips plus two decorative network overlays, and package/client deployment readbacks. Hardware acceptance remains separate.
+An earlier checkpoint recorded 142 host tests, an Xbox Release build, 117 scene round trips, allocation/grid checks and archive readbacks. Later route/message regressions brought the reported total to 150 passing host tests. The latest list/network checkpoint passed 154 host tests, an Xbox Release build with no warnings/errors, 117 replacement round trips plus two decorative network overlays, and package/client deployment readbacks. Hardware acceptance remains separate.
 
 Earlier Xbox feedback showed Settings unavailable before any private scene creation. The native hub exposed virtual channels while Custom owned navigation. A later route still timed out because source text was requested as a control caption. Indexed item text requires bItemData=TRUE. A subsequent System route was Xbox-observed. Older notes saying pending describe earlier stages.
 

@@ -2,7 +2,7 @@
 
 This is a factual provenance index, not a source-code distribution. Basenames and symbols identify the inspected implementation; private repository URLs and machine paths are intentionally absent. The public examples are independently written teaching models, not extracted client code.
 
-The latest 153-test result and Xbox Release/build validation were rerun during publication. Xbox System navigation success and the earlier screenshot status are maintainer session checkpoints; the new sidebar/tile layout has not yet been accepted on hardware. Artifact hashes/instruction bytes for the target image are not published; verify your own image before using addresses.
+The latest 154-test result and Xbox Release/build validation were rerun during publication. Xbox System navigation success and the earlier screenshot status are maintainer session checkpoints; the new sidebar/tile layout has not yet been accepted on hardware. Artifact hashes/instruction bytes for the target image are not published; verify your own image before using addresses.
 
 | ID | Topic | Evidence and reference | Finding / limit |
 |---|---|---|---|
@@ -19,7 +19,7 @@ The latest 153-test result and Xbox Release/build validation were rerun during p
 | E11 | Native routes | host-tested checkpoint plus session-reported Xbox System observation; DashboardHome.cpp / SelectNativeChannel, ReturnToNative, CompleteNativeRoute; DashboardNativeActions.h / ChannelItem; DashboardList.h / ItemText; test_dashboard_item_text.cpp | Restore origin then virtual indexed TRUE source text, discover index, SET_CURSEL, wait/press. System observed does not certify every native action |
 | E12 | Boot/sign-in | static and host regression checkpoint; CustomSignin.cpp / Create, PrepareCreatedScene; CustomSigninRules.h; CustomBootHandoff.h / Mask; build_dashboard.py | Loading animation, scoped sign-in slots, cover readiness and 8-second bridge. Transition sequence acceptance depends on deployed build |
 | E13 | Guide | static and host/build checkpoint; GuideMembers.h; GuideRouting.h / Find, OriginalBase; GuideReload.h; GuideStyles.h / ValidateArchive | 72 members, exact/dynamic scope, safe archive/reload. Remote services and per-child input/layout remain separate |
-| E14 | Verification/deployment | recorded implementation checkpoint; procedural guidance; build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py | 153 host tests and Release build passed; 117 scene roundtrips plus two network overlays, package/client deployment readbacks passed; new layout hardware acceptance pending |
+| E14 | Verification/deployment | recorded implementation checkpoint; procedural guidance; build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py | 154 host tests and Release build passed; 117 scene roundtrips plus two network overlays, package/client deployment readbacks passed; new layout hardware acceptance pending |
 | E15 | Open visual/UI work | session-reported hardware/plan status; Maintainer checkpoint dated 2026-10-25 | Backdrop/mask deployed; duplicate outer header persists; System category sidebar/native option workspace build-validated; hardware pending. Not independently re-observed during documentation authoring |
 
 See [machine-readable records](data/evidence.json), [status](docs/01-status-and-evidence.md), [resources](data/resource-inventory.json) and [address observations](data/retail17559-addresses.json). Coverage alone is not behavior verification.

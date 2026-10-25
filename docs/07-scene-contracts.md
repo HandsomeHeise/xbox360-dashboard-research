@@ -6,7 +6,7 @@ A scene signature includes provider/member, root class/ID, required descendants,
 
 Keep native controller roots, named action controls, lists, grids, wizard state and action paths. Add non-hittable private decoration behind interaction. A scene can look custom while native code continues supplying its data and actions.
 
-The scoped block has 117 resources: 11 recognized two-pane lists, 1 category sidebar/native option workspace, 90 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
+The scoped block has 117 resources: 11 recognized two-pane lists, 1 category sidebar/native option workspace, 1 network status composition and 89 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
 
 Two-pane recognition checks expected dimensions plus a native common list (lstSettings or MasterList) and metaPanelScene. Dimensions alone do not prove a contract. Small slots/metadata panes are helpers; adding a full-screen surface indiscriminately can obscure their parent.
 
@@ -49,3 +49,9 @@ Two native list IDs occur in the console detail pages. Recognizing only lstSetti
 The normal network selection scene and its slots use the network provider. A live inspection confirmed the exact native root/member but found no private decoration while the custom submenu gate was active. This establishes a missing presentation in that observation; it does not prove why creation interception was missed. Cached scenes are a possible cause, not a confirmed explanation.
 
 A scoped fallback can attach noninteractive decoration at a frame boundary to an already loaded exact provider/member. Preserve the native slot list, invisible action buttons, SSID, signal, lock, connected state, scan controls and saving indicator. Draw a private card behind each recognized native slot and mask only its legacy visual after attachment succeeds. Do not replace connection data with a static list or match every XuiScene1 by basename. Keep OOBE outside the normal provider rule. This fallback is build/deployment validated; network input and visual acceptance remain pending on hardware.
+
+## Network selection is not the network test page
+
+NetworkSelectionMainScene selects an adapter or wireless network. NetworkMain is a separate CNetworkMain scene containing the CNetworkMenu actions and CConnectBar status controller. Styling the selector does not restyle its destination. A live image of the latter retained literal light-gray figures and a decorative accent through a menu row even though its outer custom surface was present.
+
+Treat this as a scene-specific composition. Preserve native navigation, conditional Continue buttons, connection-test presenters, status data associations, scanning and failure indicators. Replace literal background fills, separate menu card rows from the status panel, and use a private status visual that retains both native text associations and the image presenter. Scope changes by provider/member, not the generic root ID Main. The updated template is host/build validated; test transitions and service-dependent outcomes on hardware separately.

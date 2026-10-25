@@ -113,8 +113,8 @@
       "topic": "Verification/deployment",
       "evidence": "recorded implementation checkpoint; procedural guidance",
       "source_symbols": "build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py",
-      "finding": "Reported 153 host tests; earlier release/117 roundtrips/readbacks",
-      "limitation": "153 host tests and Release/build validation rerun; new layout hardware acceptance pending"
+      "finding": "Reported 154 host tests; earlier release/117 roundtrips/readbacks",
+      "limitation": "154 host tests and Release/build validation rerun; new layout hardware acceptance pending"
     },
     {
       "id": "E15",
@@ -127,10 +127,18 @@
     {
       "id": "E16",
       "topic": "Detail lists and cached network presentation",
-      "evidence": "live normal-provider/base inspection; 153 host tests; Release build; deployment readback",
+      "evidence": "live normal-provider/base inspection; 154 host tests; Release build; deployment readback",
       "source_symbols": "build_dashboard_scenes.py / DETAIL_RECTS, network_overlay; DashboardNetwork.cpp / Update, MaskNativeVisual",
       "finding": "Both native common-list IDs supported; noninteractive normal-network decoration can attach to already loaded scoped scenes",
       "limitation": "Why interception was missed remains unproven; latest detail/network visuals and input await hardware acceptance"
+    },
+    {
+      "id": "E17",
+      "topic": "Network status composition",
+      "evidence": "live image and native tree; host contract regression; Release build and package/client readback",
+      "source_symbols": "build_dashboard_scenes.py / network_status; NetworkMain / CNetworkMain, CNetworkMenu, CConnectBar, CTestStatus",
+      "finding": "Separate network test destination required literal dark fills, spaced native action rows and status presenters retaining text/image associations",
+      "limitation": "New visuals and state transitions await hardware acceptance; selection-scene styling does not certify this destination"
     }
   ]
 }
