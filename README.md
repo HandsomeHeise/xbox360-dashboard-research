@@ -23,7 +23,7 @@ Also read [runtime ownership](docs/09-runtime-and-lifetimes.md), the [glossary](
 
 The evidence includes custom Home/Social/Games/Music/Video/Apps/Settings pages, profile-aware recent titles and installed libraries, boot/sign-in replacements, a private submenu skin, 117 scoped dashboard resource replacements and 72 Guide scene members. **363 dashboard XUR resources does not mean 363 menus.** The inventory includes helpers, slots, skins and wizard steps.
 
-The latest reported implementation checkpoint is **144 passing host tests**. System navigation was subsequently observed on Xbox after fixing virtual Twist source selection. Many individual scenes and service-dependent actions still need hardware acceptance. Recent full-screen backdrop/masking cosmetics were deployed, but the latest screenshot still showed a duplicated outer header. The proposed new sidebar UI is planned, not implemented.
+The latest reported implementation checkpoint is **146 passing host tests**. System navigation was observed on an earlier deployed Xbox build after fixing virtual Twist source selection. Many individual scenes and service-dependent actions still need hardware acceptance. Recent full-screen backdrop/masking cosmetics were deployed, but the latest screenshot still showed a duplicated outer header. The System overview now has a sidebar and a native 2-column tile workspace in source and validated build output; hardware acceptance of that new layout is pending. Console Settings still uses its existing native list controller and layout.
 
 ## Try the examples
 

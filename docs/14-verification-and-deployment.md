@@ -6,7 +6,7 @@ This is an integration checklist, not a deployment script. Public examples never
 
 Host-test session generation, stale actions, input edges, route phases, provider boundaries, item-text message fields, bookmarks and timeouts. Regressions should model the original failure: a virtual Twist source without child buttons, not a fixture that always supplies a Settings child.
 
-The implementation checkpoint reports 144 passing host tests. Running this repository's examples does not rerun that private suite.
+The implementation checkpoint reports 146 passing host tests. Running this repository's examples does not rerun that private suite.
 
 Validate XUR8 version/size, section bounds, independent DATA consumption, compound budget, native layout, root/class/binding/action contract and editable roundtrip properties. For palette-only edits, compare all bytes outside COLR.
 

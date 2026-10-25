@@ -27,7 +27,7 @@
         "provider": "consoles",
         "member": "SystemScene.xur",
         "status": "explicit-scene-replacement",
-        "layout": "two-pane-list",
+        "layout": "sidebar-native-tiles",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },

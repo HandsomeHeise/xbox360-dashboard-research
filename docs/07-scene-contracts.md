@@ -6,7 +6,7 @@ A scene signature includes provider/member, root class/ID, required descendants,
 
 Keep native controller roots, named action controls, lists, grids, wizard state and action paths. Add non-hittable private decoration behind interaction. A scene can look custom while native code continues supplying its data and actions.
 
-The scoped block has 117 resources: 3 recognized two-pane lists, 99 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
+The scoped block has 117 resources: 2 recognized two-pane lists, 1 sidebar/native tile overview, 99 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
 
 Two-pane recognition checks expected dimensions plus lstSettings and metaPanelScene. Dimensions alone do not prove a contract. Small slots/metadata panes are helpers; adding a full-screen surface indiscriminately can obscure their parent.
 
@@ -19,3 +19,11 @@ The decoration policy recognizes native legend IDs and selected Aura/legacy figu
 A private heading/legend clone is presentation, not a second controller. Copy runtime text/state for localization; do not dispatch input to it. A static XML caption can miss dynamic controller text.
 
 The latest Xbox screenshot still showed a duplicated outer header after deployed masking/backdrop cosmetics. Diagnose host and inner scene separately. Hiding an inner title does not certify the outer shell header. Verify overscan, long labels, focus, children, modal prompts and return before acceptance.
+
+## Native tiles without surrogate actions
+
+The System overview now keeps the same native list/controller and action paths while replacing the row presentation with a two-column tile layout. The description pane supplies sidebar context. The following Console Settings page retains its existing list layout; that controller populates its options dynamically.
+
+The researched grid uses the SDK grid-vertical list-item layout (value 4), also present in a retail picture grid. Tile bounds and spacing must fit both columns and all visible rows. Keep text/image presenters and their source associations, disabled/pressed/focus states, and scroll ends. Confirm every retained timeline target still exists: removing a decorative figure while retaining its animation track can make conversion fail.
+
+Register unique extension visual names under the inherited private submenu prefix. A separately qualified Visual property does not by itself satisfy native row-prototype lookup before INIT. Keep the fallback path if the additional visual library cannot load. The new composition has host/build validation; controller input and child return still require Xbox acceptance.

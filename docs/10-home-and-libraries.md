@@ -25,3 +25,7 @@ The public action table records custom-control extension IDs for store/settings 
 Dispatch once after materialization. Test direction/page changes, A/B behavior and controller reconnect. The observed debug input helper uses an edge-detected LB+RB+X chord; it is not a universal dashboard shortcut.
 
 For every new button, document handler, prerequisites, invalidation and hardware result. A label does not prove that its action exists.
+
+## Presentation language
+
+The custom page, status, error, loading and profile-selection captions now use English. Native caption matching retains explicit locale aliases so an English custom surface can still route into a localized original dashboard. Translating displayed labels must not change resource IDs, provider names, command identity or the title/profile metadata returned by native services.
