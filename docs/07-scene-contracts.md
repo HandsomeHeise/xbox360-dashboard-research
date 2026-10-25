@@ -6,7 +6,7 @@ A scene signature includes provider/member, root class/ID, required descendants,
 
 Keep native controller roots, named action controls, lists, grids, wizard state and action paths. Add non-hittable private decoration behind interaction. A scene can look custom while native code continues supplying its data and actions.
 
-The scoped block has 117 resources: 2 recognized two-pane lists, 1 sidebar/native tile overview, 99 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
+The scoped block has 117 resources: 2 recognized two-pane lists, 1 category sidebar/native option workspace, 99 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
 
 Two-pane recognition checks expected dimensions plus lstSettings and metaPanelScene. Dimensions alone do not prove a contract. Small slots/metadata panes are helpers; adding a full-screen surface indiscriminately can obscure their parent.
 
@@ -22,8 +22,16 @@ The latest Xbox screenshot still showed a duplicated outer header after deployed
 
 ## Native tiles without surrogate actions
 
-The System overview now keeps the same native list/controller and action paths while replacing the row presentation with a two-column tile layout. The description pane supplies sidebar context. The following Console Settings page retains its existing list layout; that controller populates its options dynamically.
+The System overview keeps its native category list on the left. The right workspace contains a nested native Console scene with its own dynamically populated option list/controller. It preserves native action and enabled-state tables. External categories retain their native application setup rather than fabricated direct resource routes.
 
 The researched grid uses the SDK grid-vertical list-item layout (value 4), also present in a retail picture grid. Tile bounds and spacing must fit both columns and all visible rows. Keep text/image presenters and their source associations, disabled/pressed/focus states, and scroll ends. Confirm every retained timeline target still exists: removing a decorative figure while retaining its animation track can make conversion fail.
 
 Register unique extension visual names under the inherited private submenu prefix. A separately qualified Visual property does not by itself satisfy native row-prototype lookup before INIT. Keep the fallback path if the additional visual library cannot load. The new composition has host/build validation; controller input and child return still require Xbox acceptance.
+
+## Embedding a native options controller
+
+The verified creation pipeline initializes existing child subtrees with NULL child init data, then initializes the root with the caller data. The observed Console caller also supplies NULL. This supports a nested Console controller in the System workspace without forwarding opaque System init data. Keep the Console scene’s own immediate list and metadata controls: matching IDs in a sibling scene are different objects.
+
+ControlPackLegacyControl is also a layout service. Its timer periodically recenters and rescales its parent. Alpha-masking its paint does not stop that behavior. The nested Console variant omits that helper while preserving the actual options controller and bindings. This is a scoped template decision, not a reason to remove helpers from arbitrary native forms.
+
+Restore the nested scene’s native base as well as the parent base. Its option handler creates relative child resources. Full native option dialogs navigate from the owning System scene so their native layout and Back chain remain outside the bounded workspace. Only the exact embedded Console origin is redirected.

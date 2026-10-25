@@ -57,7 +57,7 @@
       "topic": "Scene layout/header rules",
       "evidence": "static and build checkpoint; latest cosmetic session report",
       "source_symbols": "build_dashboard_scenes.py / scene; DashboardSceneRules.h / Decoration; CustomSignin.cpp / PrepareFrame",
-      "finding": "2 two-pane lists, 1 sidebar/native tile overview, 99 native forms, 15 helpers; retain native controls",
+      "finding": "2 two-pane lists, 1 category sidebar/native option workspace, 99 native forms, 15 helpers; retain native controls",
       "limitation": "Latest outer-header duplication remains open"
     },
     {
@@ -113,15 +113,15 @@
       "topic": "Verification/deployment",
       "evidence": "recorded implementation checkpoint; procedural guidance",
       "source_symbols": "build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py",
-      "finding": "Reported 146 host tests; earlier release/117 roundtrips/readbacks",
-      "limitation": "146 host tests and Release/build validation rerun; new layout hardware acceptance pending"
+      "finding": "Reported 147 host tests; earlier release/117 roundtrips/readbacks",
+      "limitation": "147 host tests and Release/build validation rerun; new layout hardware acceptance pending"
     },
     {
       "id": "E15",
       "topic": "Open visual/UI work",
       "evidence": "session-reported hardware/plan status",
       "source_symbols": "Maintainer checkpoint dated 2026-10-25",
-      "finding": "Backdrop/mask deployed; duplicate outer header persists; System sidebar/native tiles build-validated; hardware pending",
+      "finding": "Backdrop/mask deployed; duplicate outer header persists; System category sidebar/native option workspace build-validated; hardware pending",
       "limitation": "Not independently re-observed during documentation authoring"
     }
   ]

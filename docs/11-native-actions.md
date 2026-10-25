@@ -26,6 +26,10 @@ Retain the return page/focus for ordinary child navigation. Explicit Original sh
 
 ## Evidence
 
-A virtual-source fixture contains no child buttons and inserts Bing to catch fixed-index assumptions. A compiled message regression covers TRUE/FALSE, nonzero index, outer object, unhandled response and invalid arguments. Latest reported total: 146 host tests passed.
+A virtual-source fixture contains no child buttons and inserts Bing to catch fixed-index assumptions. A compiled message regression covers TRUE/FALSE, nonzero index, outer object, unhandled response and invalid arguments. Latest reported total: 147 host tests passed.
 
 A later System route was Xbox-observed after these corrections. Other actions still need individual acceptance. Run python examples/route_model.py for an original SDK-free model of restoration and discovered-index selection.
+
+## Controller identity after leaving Home
+
+Closing Custom Home releases its title library and clears that library owner to0xFF. That value cannot authorize input in a later settings submenu. Keep the submenu’s saved controller identity, check the current DASH active controller, and snapshot/recheck the profile for queued work. Requests must be dropped if their focused shell, controller or profile changes.
