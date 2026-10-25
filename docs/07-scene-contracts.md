@@ -35,3 +35,9 @@ The verified creation pipeline initializes existing child subtrees with NULL chi
 ControlPackLegacyControl is also a layout service. Its timer periodically recenters and rescales its parent. Alpha-masking its paint does not stop that behavior. The nested Console variant omits that helper while preserving the actual options controller and bindings. This is a scoped template decision, not a reason to remove helpers from arbitrary native forms.
 
 Restore the nested scene’s native base as well as the parent base. Its option handler creates relative child resources. Full native option dialogs navigate from the owning System scene so their native layout and Back chain remain outside the bounded workspace. Only the exact embedded Console origin is redirected.
+
+## An embedded scene needs an embedded visual
+
+A live Console subtree retained the stock BackgroundPanel visual even after its scene bounds were set to620x320. The attached native visual still painted its large legacy panel beyond the workspace. A small controller root does not establish small paint bounds. Give the embedded root its own bounded/empty visual and let the workspace own its background; do not change the standalone native scene globally.
+
+Separate the text-only option row from the icon-bearing category row. Reserving an unused icon column narrowed long option names and forced clipped wrapping. The corrected option presenter uses more horizontal space, two-line vertical room and a fixed top-left anchor. Layout contracts can verify available bounds; actual font and focus rendering still require a hardware screenshot.

@@ -18,7 +18,7 @@ Another addition contains 15 GamerProfile resources. The Guide table now has 72 
 
 ## Verification progression
 
-An earlier checkpoint recorded 142 host tests, an Xbox Release build, 117 scene round trips, allocation/grid checks and archive readbacks. Later route/message regressions brought the reported total to 148 passing host tests. The 148-test suite and Xbox Release/build validation were rerun during publication; hardware acceptance remains separate.
+An earlier checkpoint recorded 142 host tests, an Xbox Release build, 117 scene round trips, allocation/grid checks and archive readbacks. Later route/message regressions brought the reported total to 150 passing host tests. The 150-test suite and Xbox Release/build validation were rerun during publication; hardware acceptance remains separate.
 
 Earlier Xbox feedback showed Settings unavailable before any private scene creation. The native hub exposed virtual channels while Custom owned navigation. A later route still timed out because source text was requested as a control caption. Indexed item text requires bItemData=TRUE. A subsequent System route was Xbox-observed. Older notes saying pending describe earlier stages.
 
