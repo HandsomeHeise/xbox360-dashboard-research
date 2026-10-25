@@ -6,19 +6,19 @@ A scene signature includes provider/member, root class/ID, required descendants,
 
 Keep native controller roots, named action controls, lists, grids, wizard state and action paths. Add non-hittable private decoration behind interaction. A scene can look custom while native code continues supplying its data and actions.
 
-The scoped block has 117 resources: 2 recognized two-pane lists, 1 category sidebar/native option workspace, 99 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
+The scoped block has 117 resources: 11 recognized two-pane lists, 1 category sidebar/native option workspace, 90 native forms/grids with custom surfaces, and 15 helpers. Do not flatten every form into a landing-page template.
 
-Two-pane recognition checks expected dimensions plus lstSettings and metaPanelScene. Dimensions alone do not prove a contract. Small slots/metadata panes are helpers; adding a full-screen surface indiscriminately can obscure their parent.
+Two-pane recognition checks expected dimensions plus a native common list (lstSettings or MasterList) and metaPanelScene. Dimensions alone do not prove a contract. Small slots/metadata panes are helpers; adding a full-screen surface indiscriminately can obscure their parent.
 
 ## Headers and legend clones
 
 Keep native title/legend controls alive. Controllers and timelines may update their text, conditions and visibility. Suppress drawing only when a valid private replacement supplies the presentation.
 
-The decoration policy recognizes native legend IDs and selected Aura/legacy figures. txt_Header and labHeader are hidden only when a private heading exists. Track the shell legend through the active scene parent and forget it when ownership changes.
+The decoration policy recognizes native legend IDs and selected Aura/legacy figures. txt_Header and labHeader are hidden when a private heading exists, or when the detail composition deliberately retains the native outer shell title. Track the shell legend through the active scene parent and forget it when ownership changes.
 
 A private heading/legend clone is presentation, not a second controller. Copy runtime text/state for localization; do not dispatch input to it. A static XML caption can miss dynamic controller text.
 
-The latest Xbox screenshot still showed a duplicated outer header after deployed masking/backdrop cosmetics. Diagnose host and inner scene separately. Hiding an inner title does not certify the outer shell header. Verify overscan, long labels, focus, children, modal prompts and return before acceptance.
+An earlier Xbox screenshot showed a duplicated title. The current detail composition removes the private inner title and masks its native inner counterpart, retaining the outer title. This correction is build-validated; confirm it on hardware. Verify overscan, long labels, focus, children, modal prompts and return before acceptance.
 
 ## Native tiles without surrogate actions
 
@@ -41,3 +41,11 @@ Restore the nested scene’s native base as well as the parent base. Its option 
 A live Console subtree retained the stock BackgroundPanel visual even after its scene bounds were set to620x320. The attached native visual still painted its large legacy panel beyond the workspace. A small controller root does not establish small paint bounds. Give the embedded root its own bounded/empty visual and let the workspace own its background; do not change the standalone native scene globally.
 
 Separate the text-only option row from the icon-bearing category row. Reserving an unused icon column narrowed long option names and forced clipped wrapping. The corrected option presenter uses more horizontal space, two-line vertical room and a fixed top-left anchor. Layout contracts can verify available bounds; actual font and focus rendering still require a hardware screenshot.
+
+## Detail list geometry and cached network scenes
+
+Two native list IDs occur in the console detail pages. Recognizing only lstSettings misses MasterList pages such as Clock and Language and Locale. Use one geometry table for generated templates and frame corrections: separate the list, current-value header, multiline current value and description. An accent anchored independently of list layout can cross a row. Preserve enabled state, native bindings, conditional fields and confirmation flows.
+
+The normal network selection scene and its slots use the network provider. A live inspection confirmed the exact native root/member but found no private decoration while the custom submenu gate was active. This establishes a missing presentation in that observation; it does not prove why creation interception was missed. Cached scenes are a possible cause, not a confirmed explanation.
+
+A scoped fallback can attach noninteractive decoration at a frame boundary to an already loaded exact provider/member. Preserve the native slot list, invisible action buttons, SSID, signal, lock, connected state, scan controls and saving indicator. Draw a private card behind each recognized native slot and mask only its legacy visual after attachment succeeds. Do not replace connection data with a static list or match every XuiScene1 by basename. Keep OOBE outside the normal provider rule. This fallback is build/deployment validated; network input and visual acceptance remain pending on hardware.

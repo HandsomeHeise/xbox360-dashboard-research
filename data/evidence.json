@@ -57,7 +57,7 @@
       "topic": "Scene layout/header rules",
       "evidence": "static and build checkpoint; latest cosmetic session report",
       "source_symbols": "build_dashboard_scenes.py / scene; DashboardSceneRules.h / Decoration; CustomSignin.cpp / PrepareFrame",
-      "finding": "2 two-pane lists, 1 category sidebar/native option workspace, 99 native forms, 15 helpers; retain native controls",
+      "finding": "11 two-pane lists, 1 category sidebar/native option workspace, 90 native forms, 15 helpers; retain native controls",
       "limitation": "Latest outer-header duplication remains open"
     },
     {
@@ -113,8 +113,8 @@
       "topic": "Verification/deployment",
       "evidence": "recorded implementation checkpoint; procedural guidance",
       "source_symbols": "build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py",
-      "finding": "Reported 150 host tests; earlier release/117 roundtrips/readbacks",
-      "limitation": "150 host tests and Release/build validation rerun; new layout hardware acceptance pending"
+      "finding": "Reported 153 host tests; earlier release/117 roundtrips/readbacks",
+      "limitation": "153 host tests and Release/build validation rerun; new layout hardware acceptance pending"
     },
     {
       "id": "E15",
@@ -123,6 +123,14 @@
       "source_symbols": "Maintainer checkpoint dated 2026-10-25",
       "finding": "Backdrop/mask deployed; duplicate outer header persists; System category sidebar/native option workspace build-validated; hardware pending",
       "limitation": "Not independently re-observed during documentation authoring"
+    },
+    {
+      "id": "E16",
+      "topic": "Detail lists and cached network presentation",
+      "evidence": "live normal-provider/base inspection; 153 host tests; Release build; deployment readback",
+      "source_symbols": "build_dashboard_scenes.py / DETAIL_RECTS, network_overlay; DashboardNetwork.cpp / Update, MaskNativeVisual",
+      "finding": "Both native common-list IDs supported; noninteractive normal-network decoration can attach to already loaded scoped scenes",
+      "limitation": "Why interception was missed remains unproven; latest detail/network visuals and input await hardware acceptance"
     }
   ]
 }

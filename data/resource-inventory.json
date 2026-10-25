@@ -11,8 +11,9 @@
       "existing-boot-replacement": 4
     },
     "layout_counts": {
-      "two-pane-list": 3,
-      "native-form-with-custom-surfaces": 99,
+      "sidebar-with-native-options": 1,
+      "two-pane-list": 11,
+      "native-form-with-custom-surfaces": 90,
       "helper": 15
     },
     "resources": [
@@ -35,7 +36,7 @@
         "provider": "consoles",
         "member": "KinectSettings.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -91,7 +92,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetDisplayFormat.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -147,7 +148,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetAudio.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -187,7 +188,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetLangLocale.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -203,7 +204,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetClock.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -259,7 +260,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetPControl.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -291,7 +292,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetPControlVideo.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -403,7 +404,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetStartupShutdown.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
@@ -435,7 +436,7 @@
         "provider": "consoles",
         "member": "dashSysCslSetClosedCaptionSettings.xur",
         "status": "explicit-scene-replacement",
-        "layout": "native-form-with-custom-surfaces",
+        "layout": "two-pane-list",
         "evidence": "static/build manifest",
         "hardware_acceptance": "pending individually"
       },
