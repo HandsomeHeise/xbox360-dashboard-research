@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "target": "Retail17559 integration",
+  "note": "Private custom-control IDs, not Microsoft command IDs. Native commands/permissions remain native.",
+  "actions": [
+    {
+      "id": 51,
+      "name": "StoreMyGames",
+      "native_channel": null
+    },
+    {
+      "id": 52,
+      "name": "StoreAddOns",
+      "native_channel": "Games"
+    },
+    {
+      "id": 53,
+      "name": "StoreBrowse",
+      "native_channel": "Games"
+    },
+    {
+      "id": 54,
+      "name": "StoreDemos",
+      "native_channel": "Games"
+    },
+    {
+      "id": 55,
+      "name": "StoreSearch",
+      "native_channel": "Games"
+    },
+    {
+      "id": 56,
+      "name": "StoreAZ",
+      "native_channel": "Games"
+    },
+    {
+      "id": 57,
+      "name": "SettingsSystem",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 58,
+      "name": "SettingsProfile",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 59,
+      "name": "SettingsPreferences",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 60,
+      "name": "SettingsKinect",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 61,
+      "name": "SettingsAccount",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 62,
+      "name": "SettingsPrivacy",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 63,
+      "name": "SettingsFamily",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 64,
+      "name": "SettingsPower",
+      "native_channel": "Settings"
+    },
+    {
+      "id": 65,
+      "name": "SettingsNative",
+      "native_channel": null
+    }
+  ]
+}

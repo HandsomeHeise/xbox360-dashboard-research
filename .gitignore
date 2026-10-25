@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# Keep console/system payloads and local instrumentation out of this handbook.
+*.xex
+*.xzp
+*.xur
+*.xui
+*.xma
+*.dds
+*.pdb
+*.log
+.env
+.env.*
+local/

@@ -1,0 +1,3421 @@
+{
+  "schema_version": 1,
+  "target": "Retail17559",
+  "snapshot": "2026-10-25",
+  "note": "Resources include helpers, slots, skins and wizard steps; counts are not menu counts. Membership does not establish functionality.",
+  "dashboard": {
+    "total": 363,
+    "status_counts": {
+      "individual-review-open": 242,
+      "explicit-scene-replacement": 117,
+      "existing-boot-replacement": 4
+    },
+    "layout_counts": {
+      "two-pane-list": 3,
+      "native-form-with-custom-surfaces": 99,
+      "helper": 15
+    },
+    "resources": [
+      {
+        "provider": "arcade",
+        "member": "InstallTitleScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "SystemScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "two-pane-list",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "KinectSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "KinectChatMicSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "KinectSensorSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "SpeechSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSet.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "two-pane-list",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSet3D.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetDisplay.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "two-pane-list",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetDisplayFormat.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetDisplayHiDef.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetDisplayPal.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetOutputLevels.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetColorSpace.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetConsoleName.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetDisplayDiscovery.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAudio.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAudioDigital.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAudioNielsen.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAudioSoundEffects.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAutoDownloads.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetLangLocale.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetLanguage.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClock.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClockDaylightSavings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClockFormat.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClockTime.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClockTimeZone.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetMediaAutoLaunch.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetCountry.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControl.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlFamilyTimer.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlGame.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlGameExemptions.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlVideo.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlVideoMovie.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlVideoTV.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlVideoExplicit.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlVideoUnrated.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlLiveA.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlLiveC.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlContentSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlPasscode.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPControlPasscodeHint.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetAutoOff.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetScreensaver.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetPolicyInfo_System.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetRemoteC.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetStartupShutdown.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetStartUp.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetTVScreenSize.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClosedCaption.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClosedCaptionSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetClosedCaptionSettingValues.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysLiveVision.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "LiveTVSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "metaPane_DisplayNormal.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "metaPane_DisplayWidescreen.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetBackgroundDownloads.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "consoles",
+        "member": "dashSysCslSetConsoleDiscoverable.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "AuraScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "ChannelListScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "GuideItemScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "GuideLabelScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "HubSceneHomepage.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "HubSceneStandard.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "HubSceneKiosk.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "LegendScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "PanelScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "InputSceneStandard.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "Variables.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "SimpleCursorScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "dashcursorscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "NuiTipsAndProgressScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "ScourChapterMark.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "ScourScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "ScourSkin.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\VScrollHandle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\NuiButtonHandle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\XenonHandle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\SideHandleLeft.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\SideHandleRight.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\NuiSwipeNavLeft.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\NuiSwipeNavRight.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\BackHandle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "controlp",
+        "member": "..\\handles\\NotchSubwayHandle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "Empty.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivityDetailsChannelLayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivityDetailsChannelLayout2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivityDetailsUserSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivityDetailsPreviewSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameAchievementsChannelLayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameAchievementSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameOverviewChannelLayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "DLCOverviewchannelLayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameAchievementsSeeAllSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "DoubleTallBrowseTemplate.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "MarketplaceSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivitySlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ScreenshotSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "SmallLibrarySlot_Hub.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "SmallLibrarySlot_Hub_NoTitle.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "FilterChannelLayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "FilterSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "FilterActionSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "Rating.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "ActivityAlertSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameMetadataSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "contui",
+        "member": "GameActionSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "742_metaByDevice.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "742_SelectNetworkDevice.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "744_ManageAffiliation.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "MediaSourceSelection.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "MediaPackage.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "MediaPackageEmbedded.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "MiniGamercard.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "ModuleBased.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashcomm",
+        "member": "ModuleBasedEmbedded.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashmain",
+        "member": "DashAppHost.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashmain",
+        "member": "DashBkgnd.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashmain",
+        "member": "DashLoading.xur",
+        "status": "existing-boot-replacement",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashmain",
+        "member": "VideoFullScreen.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dashuisk.xzp",
+        "member": "skin.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2400_WindowsMediaCenter.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2403_SlowWiredConnection.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2404_802bgWirelessNetwork.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2405_PCSoftwarePack.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2406_WelcomeSetupKey.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2407_WaitingScreen.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2410_AttemptingOldSoftware.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "2413_UnableToConnect.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "AcquiringNetworkSettings.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "PcSoftwareError.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "HomeNetworkConnectivityRequired.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "LimitedNetworkConnectivity.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "ReconfigureWireless.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "FullscreenVideo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "download",
+        "member": "IptvConnecting.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdAction.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdAlert.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdInfo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdPadDisplay.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdPadPlayback.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdRcDisplay.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdSplash169.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "DvdSplash43.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfInfo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfPadPlayback.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfPlayback.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfPrebufferingScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfSubtitleOverlay.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "XmfNuiScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "dvd",
+        "member": "VideoWaveProgressScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template1.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template1HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template3HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template4HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template6HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template7HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template8HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template9HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template10HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template11HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template14HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template16HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template17HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template18HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template19HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "Template20HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateGamesMP.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateAlphabet.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateGenre.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateGenreHD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateOffline1HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateSignupLandingHD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TV_Template2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TV_Template3.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TV_Template4.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TV_Template5.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TV_Template6.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateSports1HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateSports2HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateSports3HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore1HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore2HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore3HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore4HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore5HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore6HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore7HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore8HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore9HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore10HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore11HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore12HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "epix",
+        "member": "TemplateStore13HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamer",
+        "member": "DashAppContainerPanel.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamer",
+        "member": "GamerRootScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamer",
+        "member": "ThemesRoot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamer",
+        "member": "ThemePicker.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamer",
+        "member": "ThemeVisionEffects.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "gamercar",
+        "member": "gamercard.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "hubscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "hubhomepage.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "busychannel.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "emptychannel.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "kioskhubscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "moreslot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "hubui",
+        "member": "LaunchSignup.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "iptv",
+        "member": "dashSysIPTVSet.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "iptv",
+        "member": "uninstallIPTV.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "mediasit",
+        "member": "FullscreenVideo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "DeviceSelector.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "DeviceDetails.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "DeviceConfigureScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "DeviceConfigureAdvancedScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "Categories.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "EnumeratingContent.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "ItemsGrid.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "ItemsGrid2.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "ItemsIcons.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "ItemDetails.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "OperationProgress.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "FormatHD.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "DeleteMusic.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MUA.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MUB.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "HDDVDDevice.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "HDDVDContents.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "HDDVDContentDetails.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MWSelectDevice.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MWCategories.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MWDetailsScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "memory",
+        "member": "MWSelectSource.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1020_ripCDlist.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1021_RipProgress.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1023_TroubleshootConnectionAlert.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1024_DownloadInfoAlert.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1025_EditAlbumInfo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1026_EditSongInfo.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1028_NowPlaying.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1030_EditPlaylist.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1031_SaveChangesAlert.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1003_IndividualDevice.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1003_MediaContainerList.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1003_SongList.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1005_MediaContainerOptions.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1006_IndividualArtistMain.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1016_IndividualSongMain.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1048_IndividualDeviceMain.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "1004_DeviceNotBrowseable.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "Meta_Songs.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "FullscreenVisualizer.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "music",
+        "member": "Equalizer.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2000_NetworkConfigList.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2004_NetworkDetails.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2015_WirelessInformation.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2016_EditIPSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2018_IPSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2020_AvailableWirelessNetworks.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2022_WirelessSecuritySettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2024_EnterSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2026_ChannelList.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2028_WirelessModes.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2033_DNSConfig.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2034_DNSSettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2036_PPoESettings.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2038_ConsoleInformation.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "2040_Ad-HocWirelessSecurity.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "dashSysCslSetCountry.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkMain.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSourceSelection.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionMainScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionScanningSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionWiredSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionWirelessInfoSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionWirelessSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionConfiguredWirelessSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionNoWirelessNetworksFoundSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkSelectionAdvancedWirelessSlot.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "helper",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkTraceroute.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "NetworkTracerouteResults.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "SuggestionScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "network",
+        "member": "TestingScene.xur",
+        "status": "explicit-scene-replacement",
+        "layout": "native-form-with-custom-surfaces",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobeControllerNoLanguage.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobeBackground.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobeDownloadNautilusProfile.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeLanguage.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeLocale.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeNetworkSelection.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeNetworkTest.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeNetworkTestInProgress.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobePControlEntry.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeSetPControl.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobeCompleteLive.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobePrepareCompleteLive.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "OobeKinectAudio.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "oobe",
+        "member": "oobePasscodeHint.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "pictures",
+        "member": "905_IndividualDeviceMain.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "pictures",
+        "member": "slideshowControls.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "SharedUI.xzp",
+        "member": "MPDashSkin.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "SharedUI.xzp",
+        "member": "TermsOfUseScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "EmptyProfileSlotScene.xur",
+        "status": "existing-boot-replacement",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "ModalMenu2Scene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "ModalMenu3Scene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "ProfileSlotScene.xur",
+        "status": "existing-boot-replacement",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "SkipSigninSlot.xur",
+        "status": "existing-boot-replacement",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "SignInTemplate.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signinpr",
+        "member": "TaskManagerScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signupbo",
+        "member": "DownloadLiveSignup.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "signupbo",
+        "member": "1123_Congratulations.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "BoxArtContainerScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "CarouselSlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "DvdTraySlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "imgdest.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "LiveTileSlot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "MovieSlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "PopoutContainerScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "TraySlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "SlotContainerScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "AdSlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "DecoratorSlotScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "slots",
+        "member": "LightweightContainerScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "buttonslotscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "buttonslotcornerscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "completedgames.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "completedgamesummaryslot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "completedgameslot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "completedgameslotlayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "diorama.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "meavatarslotscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "meviewscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "meyouviewavatarslot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "avatarslotscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "profilesummary.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "aboutme.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "achievementsbutton.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "hubchannellayout.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "meviewlayout1.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "meviewlayout2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "friendslayout1.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "friendslayout2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "partieslayout1.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "partieslayout2.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "partydetails.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "partydetailsbuttons.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "skin.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "threeiconbutton.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "socxzp",
+        "member": "upsellslotscene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "thermal",
+        "member": "ThermalPostScene.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "Details.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "DetailsRoot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "DetailsActions.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "DetailsDescription.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "DetailsMovie.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "FiltersCollections.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "FiltersRecent.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "FiltersRoot.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "HD.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "Video.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "VideoContent.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      },
+      {
+        "provider": "videos",
+        "member": "VideoUsageRights.xur",
+        "status": "individual-review-open",
+        "evidence": "static/build manifest",
+        "hardware_acceptance": "pending individually"
+      }
+    ]
+  },
+  "guide": {
+    "total": 72,
+    "new_profile_members": [
+      "GamerCardScene.xur",
+      "GamerZoneInfo.xur",
+      "807_EditGamerTile.xur",
+      "808_editProfile.xur",
+      "809_ChangeGamerTile.xur",
+      "830_GamerPreferences.xur",
+      "831_PreferenceSetting.xur",
+      "832_PreferenceCategory.xur",
+      "803_SignInPreferences.xur",
+      "SelectGamerzone.xur",
+      "ChangePersonalTile.xur",
+      "NuiLoadAchievements.xur",
+      "NuiAchievements.xur",
+      "NuiGamesList.xur",
+      "NuiAchievementDetails.xur"
+    ],
+    "resources": [
+      {
+        "member": "GamesTabServer.xur",
+        "replacement_member": "xbGamesTabServer.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GamesTabSignedIn.xur",
+        "replacement_member": "xbGamesTabSignedIn.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GamesTabSignedOut.xur",
+        "replacement_member": "xbGamesTabSignedOut.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GuideMain.xur",
+        "replacement_member": "xbGuideMain.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GuideMainServer.xur",
+        "replacement_member": "xbGuideMainServer.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "HomeTabServer.xur",
+        "replacement_member": "xbHomeTabServer.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "HomeTabSignedIn.xur",
+        "replacement_member": "xbHomeTabSignedIn.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "HomeTabSignedInLive.xur",
+        "replacement_member": "xbHomeTabSignedInLive.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "HomeTabSignedOut.xur",
+        "replacement_member": "xbHomeTabSignedOut.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "HudBkgnd.xur",
+        "replacement_member": "xbHudBkgnd.xur",
+        "provider": "xam",
+        "native_scope": "section://@0,xam#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "MiniMediaPlayer.xur",
+        "replacement_member": "xbMiniMediaPlayer.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "SettingsTabServer.xur",
+        "replacement_member": "xbSettingsTabServer.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "SettingsTabSignedIn.xur",
+        "replacement_member": "xbSettingsTabSignedIn.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "SettingsTabSignedOut.xur",
+        "replacement_member": "xbSettingsTabSignedOut.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "802_Achievements.xur",
+        "replacement_member": "xbAchievements_802_Achievements.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "804_LoadAchievements.xur",
+        "replacement_member": "xbAchievements_804_LoadAchievements.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "820_GameShowcaseMe.xur",
+        "replacement_member": "xbAchievements_820_GameShowcaseMe.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "825_GameShowcaseCompare.xur",
+        "replacement_member": "xbAchievements_825_GameShowcaseCompare.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "826-7_GameAchievStatsYou.xur",
+        "replacement_member": "xbAchievements_826-7_GameAchievStatsYou.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "828_AchievDetails.xur",
+        "replacement_member": "xbAchievements_828_AchievDetails.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GamerscoreMoreInfo.xur",
+        "replacement_member": "xbAchievements_GamerscoreMoreInfo.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "837_AvatarAwardGamesMe.xur",
+        "replacement_member": "xbAwards_837_AvatarAwardGamesMe.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "837_AvatarAwards.xur",
+        "replacement_member": "xbAwards_837_AvatarAwards.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "837_LoadAvatarAwards.xur",
+        "replacement_member": "xbAwards_837_LoadAvatarAwards.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GameDetails.xur",
+        "replacement_member": "xbBeacons_GameDetails.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "RootScene.xur",
+        "replacement_member": "xbBeacons_RootScene.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "SetBeacon.xur",
+        "replacement_member": "xbBeacons_SetBeacon.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "TabBaseScene.xur",
+        "replacement_member": "xbBeacons_TabBaseScene.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "TitlePickerScene.xur",
+        "replacement_member": "xbBeacons_TitlePickerScene.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "WaitScene.xur",
+        "replacement_member": "xbBeacons_WaitScene.xur",
+        "provider": "media",
+        "native_scope": null,
+        "dynamic_module": "Guide.Beacons.xex",
+        "module_size_hint": "0x8B000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "rootscene.xur",
+        "replacement_member": "xbChat_rootscene.xur",
+        "provider": "media",
+        "native_scope": "section://@A,media#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "VoicechatOptions.xur",
+        "replacement_member": "xbChat_VoicechatOptions.xur",
+        "provider": "media",
+        "native_scope": "section://@A,media#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "ActiveDownloadsScene.xur",
+        "replacement_member": "xbDownloads_ActiveDownloadsScene.xur",
+        "provider": "HudDLUI",
+        "native_scope": null,
+        "dynamic_module": "Guide.MP.Download.xex",
+        "module_size_hint": "0xF1000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "DownloadDetailsScene.xur",
+        "replacement_member": "xbDownloads_DownloadDetailsScene.xur",
+        "provider": "HudDLUI",
+        "native_scope": null,
+        "dynamic_module": "Guide.MP.Download.xex",
+        "module_size_hint": "0xF1000",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "Bio.xur",
+        "replacement_member": "xbFriends_Bio.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "community.xur",
+        "replacement_member": "xbFriends_community.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "CustomPartyList.xur",
+        "replacement_member": "xbFriends_CustomPartyList.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "FofScene.xur",
+        "replacement_member": "xbFriends_FofScene.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "MessageRecipients.xur",
+        "replacement_member": "xbFriends_MessageRecipients.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "MessageRecipients2.xur",
+        "replacement_member": "xbFriends_MessageRecipients2.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "Messages_Options2.xur",
+        "replacement_member": "xbFriends_Messages_Options2.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "MessageType.xur",
+        "replacement_member": "xbFriends_MessageType.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "NewMessage.xur",
+        "replacement_member": "xbFriends_NewMessage.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "PartyDrilldown.xur",
+        "replacement_member": "xbFriends_PartyDrilldown.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "PartySettings.xur",
+        "replacement_member": "xbFriends_PartySettings.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "PassportVerification.xur",
+        "replacement_member": "xbFriends_PassportVerification.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "ProfileRoot.xur",
+        "replacement_member": "xbFriends_ProfileRoot.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "recentplayers.xur",
+        "replacement_member": "xbFriends_recentplayers.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "ShowCommunitySessions.xur",
+        "replacement_member": "xbFriends_ShowCommunitySessions.xur",
+        "provider": "friends",
+        "native_scope": "section://@0,friends#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "InfoUpsellLive.xur",
+        "replacement_member": "xbLive_InfoUpsellLive.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "803_SignInPreferences.xur",
+        "replacement_member": "xbProfile_803_SignInPreferences.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "807_EditGamerTile.xur",
+        "replacement_member": "xbProfile_807_EditGamerTile.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "808_editProfile.xur",
+        "replacement_member": "xbProfile_808_editProfile.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "809_ChangeGamerTile.xur",
+        "replacement_member": "xbProfile_809_ChangeGamerTile.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "830_GamerPreferences.xur",
+        "replacement_member": "xbProfile_830_GamerPreferences.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "831_PreferenceSetting.xur",
+        "replacement_member": "xbProfile_831_PreferenceSetting.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "832_PreferenceCategory.xur",
+        "replacement_member": "xbProfile_832_PreferenceCategory.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "ChangePersonalTile.xur",
+        "replacement_member": "xbProfile_ChangePersonalTile.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GamerCardScene.xur",
+        "replacement_member": "xbProfile_GamerCardScene.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "GamerZoneInfo.xur",
+        "replacement_member": "xbProfile_GamerZoneInfo.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "NuiAchievementDetails.xur",
+        "replacement_member": "xbProfile_NuiAchievementDetails.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "NuiAchievements.xur",
+        "replacement_member": "xbProfile_NuiAchievements.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "NuiGamesList.xur",
+        "replacement_member": "xbProfile_NuiGamesList.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "NuiLoadAchievements.xur",
+        "replacement_member": "xbProfile_NuiLoadAchievements.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "SelectGamerzone.xur",
+        "replacement_member": "xbProfile_SelectGamerzone.xur",
+        "provider": "gp",
+        "native_scope": "section://@D,gp#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "QuickLaunch.xur",
+        "replacement_member": "xbRecent_QuickLaunch.xur",
+        "provider": "hud",
+        "native_scope": "section://@0,hud#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "signin1.xur",
+        "replacement_member": "xbSignin_signin1.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "signin2.xur",
+        "replacement_member": "xbSignin_signin2.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "signin4.xur",
+        "replacement_member": "xbSignin_signin4.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "status.xur",
+        "replacement_member": "xbSignin_status.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "UserList.xur",
+        "replacement_member": "xbSignin_UserList.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      },
+      {
+        "member": "UserListSinglePane.xur",
+        "replacement_member": "xbSignin_UserListSinglePane.xur",
+        "provider": "signin",
+        "native_scope": "section://@0,signin#",
+        "dynamic_module": null,
+        "module_size_hint": "0x0",
+        "evidence": "static",
+        "hardware_acceptance": "per-member pending"
+      }
+    ]
+  }
+}

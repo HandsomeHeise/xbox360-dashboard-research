@@ -1,0 +1,448 @@
+{
+  "schema_version": 1,
+  "target": "Retail17559",
+  "snapshot": "2026-10-25",
+  "warning": "Static research observations from implementation references. Artifact hashes and instruction bytes are not published here. Verify your own exact image, ABI and module. No address alone establishes hardware acceptance.",
+  "addresses": [
+    {
+      "address": "0x921E8FB8",
+      "runtime": "DASH",
+      "meaning": "LoadVisual",
+      "source_symbol": "DashboardMenu.cpp / LoadVisual",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921D7EB0",
+      "runtime": "DASH",
+      "meaning": "RegisterClass",
+      "source_symbol": "DashboardMenu.cpp / RegisterClass",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E77A8",
+      "runtime": "DASH",
+      "meaning": "CreateScene (higher-level call)",
+      "source_symbol": "DashboardMenu.cpp / CreateScene",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E7528",
+      "runtime": "DASH",
+      "meaning": "Scene creation lower hook; distinct ABI",
+      "source_symbol": "CustomSignin.cpp / Create",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92187550",
+      "runtime": "DASH",
+      "meaning": "GetSceneContainer",
+      "source_symbol": "DashboardMenu.cpp / GetSceneContainer",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E8220",
+      "runtime": "DASH",
+      "meaning": "NavigateForward",
+      "source_symbol": "DashboardMenu.cpp / NavigateForward",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E8430",
+      "runtime": "DASH",
+      "meaning": "NavigateBack",
+      "source_symbol": "DashboardMenu.cpp / NavigateBack",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921DEC20",
+      "runtime": "DASH",
+      "meaning": "GetParent",
+      "source_symbol": "DashboardMenu.cpp / GetParentObject",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921D2AD8",
+      "runtime": "DASH",
+      "meaning": "FindClass",
+      "source_symbol": "DashboardMenu.cpp / FindClass",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921CDD90",
+      "runtime": "DASH",
+      "meaning": "DynamicCast",
+      "source_symbol": "DashboardMenu.cpp / DynamicCast",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921D3438",
+      "runtime": "DASH",
+      "meaning": "DestroyScene",
+      "source_symbol": "DashboardMenu.cpp / DestroyScene",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921DF760",
+      "runtime": "DASH",
+      "meaning": "GetChildById",
+      "source_symbol": "DashboardMenu.cpp / GetChildById",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921DF700",
+      "runtime": "DASH",
+      "meaning": "GetId",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E3A58",
+      "runtime": "DASH",
+      "meaning": "SetText",
+      "source_symbol": "DashboardMenu.cpp / SetText",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E3B60",
+      "runtime": "DASH",
+      "meaning": "SetImage",
+      "source_symbol": "DashboardHome.cpp / SetImage",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E1E28",
+      "runtime": "DASH",
+      "meaning": "GetFocus",
+      "source_symbol": "DashboardMenu.cpp / GetFocus",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E7520",
+      "runtime": "DASH",
+      "meaning": "SetUserFocus",
+      "source_symbol": "DashboardMenu.cpp / SetUserFocus",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921CD6B8",
+      "runtime": "DASH",
+      "meaning": "IsValid",
+      "source_symbol": "DashboardMenu.cpp / IsValid",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921D3078",
+      "runtime": "DASH",
+      "meaning": "SendMessage",
+      "source_symbol": "DashboardMenu.cpp / SendMessage",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921CDFE8",
+      "runtime": "DASH",
+      "meaning": "GetOuter",
+      "source_symbol": "DashboardMenu.cpp / GetOuter",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921DFDB0",
+      "runtime": "DASH",
+      "meaning": "PlayTimeline",
+      "source_symbol": "DashboardMenu.cpp / PlayTimeline",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E0518",
+      "runtime": "DASH",
+      "meaning": "ElementBeginRender",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921E0588",
+      "runtime": "DASH",
+      "meaning": "ElementEndRender",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92186D90",
+      "runtime": "DASH",
+      "meaning": "Frame hook",
+      "source_symbol": "DashboardMenu.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921D3100",
+      "runtime": "DASH",
+      "meaning": "Bubble-message hook",
+      "source_symbol": "DashboardMenu.cpp / SubmenuBubbleHook",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9221D168",
+      "runtime": "DASH",
+      "meaning": "Select brush hook",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9221D5D0",
+      "runtime": "DASH",
+      "meaning": "Set draw color",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9221D210",
+      "runtime": "DASH",
+      "meaning": "Create solid brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92221620",
+      "runtime": "DASH",
+      "meaning": "Create linear brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92221638",
+      "runtime": "DASH",
+      "meaning": "Create radial brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9221D2B0",
+      "runtime": "DASH",
+      "meaning": "Set brush transform",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9221D3D0",
+      "runtime": "DASH",
+      "meaning": "Destroy brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x921819C8",
+      "runtime": "DASH",
+      "meaning": "Active user",
+      "source_symbol": "DashboardHomeNative.cpp / ActiveOwner",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922BF8D0",
+      "runtime": "DASH",
+      "meaning": "Acquire title library",
+      "source_symbol": "DashboardHomeNative.cpp / Open",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922BBD18",
+      "runtime": "DASH",
+      "meaning": "Release title library",
+      "source_symbol": "DashboardHomeNative.cpp / Close",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922BBD58",
+      "runtime": "DASH",
+      "meaning": "Library busy",
+      "source_symbol": "DashboardHomeNative.cpp / Poll",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922BDD70",
+      "runtime": "DASH",
+      "meaning": "Resolve typed title",
+      "source_symbol": "DashboardHomeNative.cpp / Resolve",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922BE780",
+      "runtime": "DASH",
+      "meaning": "Resolve title",
+      "source_symbol": "DashboardHomeNative.cpp / Resolve",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922C1728",
+      "runtime": "DASH",
+      "meaning": "Get title package",
+      "source_symbol": "DashboardHomeNative.cpp / Resolve",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922C18F0",
+      "runtime": "DASH",
+      "meaning": "Launch title",
+      "source_symbol": "DashboardHomeNative.cpp / Launch",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x817BE1C8",
+      "runtime": "XAM",
+      "meaning": "ElementBeginRender",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x817BE238",
+      "runtime": "XAM",
+      "meaning": "ElementEndRender",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x8177DE78",
+      "runtime": "XAM",
+      "meaning": "Select brush hook",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x817B3D10",
+      "runtime": "XAM",
+      "meaning": "SendMessage",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x8177E150",
+      "runtime": "XAM",
+      "meaning": "Set draw color",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x8177DF20",
+      "runtime": "XAM",
+      "meaning": "Create solid brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x81782600",
+      "runtime": "XAM",
+      "meaning": "Create linear brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x81782618",
+      "runtime": "XAM",
+      "meaning": "Create radial brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x8177DFC0",
+      "runtime": "XAM",
+      "meaning": "Set brush transform",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x8177E0B8",
+      "runtime": "XAM",
+      "meaning": "Destroy brush",
+      "source_symbol": "ColorHooks.cpp / Install",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92202FC0",
+      "runtime": "DASH",
+      "meaning": "Compound-property loader observation",
+      "source_symbol": "xur_v8_counts.py / module rationale",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x9220AE80",
+      "runtime": "DASH",
+      "meaning": "List prototype attachment observation",
+      "source_symbol": "DashboardXui.h / Scene::Dispatch rationale",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92205600",
+      "runtime": "DASH",
+      "meaning": "Visual prefix lookup observation",
+      "source_symbol": "DashboardXui.h / Scene::Dispatch rationale",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x922109E8",
+      "runtime": "DASH",
+      "meaning": "Twist handler observation",
+      "source_symbol": "menu-coverage specification / Settings regression",
+      "evidence": "static implementation reference",
+      "portable": false
+    },
+    {
+      "address": "0x92210490",
+      "runtime": "DASH",
+      "meaning": "Twist selection path observation",
+      "source_symbol": "menu-coverage specification / Settings regression",
+      "evidence": "static implementation reference",
+      "portable": false
+    }
+  ]
+}

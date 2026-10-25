@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "Retail17559",
+  "snapshot": "2026-10-25",
+  "provenance": "Original summaries of locally inspected implementation references and explicitly supplied maintainer session checkpoints. Private source and raw logs are not distributed.",
+  "findings": [
+    {
+      "id": "E01",
+      "topic": "Coverage and status",
+      "evidence": "static/build manifest; later session-reported host/hardware checkpoints",
+      "source_symbols": "coverage.json; menu-coverage specification",
+      "finding": "363 total; 117 scoped; 15 added profile; 72 Guide members",
+      "limitation": "Inventory is not menu/functionality count; per-member hardware pending"
+    },
+    {
+      "id": "E02",
+      "topic": "XUR formats and sections",
+      "evidence": "static source inspection",
+      "source_symbols": "build_dashboard.py / validate_dashboard_xur, verify_roundtrip; xur_v8_counts.py / Reader",
+      "finding": "Target XUR8; independent DATA reader and section/count validation",
+      "limitation": "Public repository includes no proprietary schema or resources"
+    },
+    {
+      "id": "E03",
+      "topic": "Lost layout fields",
+      "evidence": "static and build validation design",
+      "source_symbols": "xur_v8_layout.py / FIELDS, metadata, restore; build_dashboard_scenes.py / native_tree, stage",
+      "finding": "Restore Row/Column/span/float/line-break from binary and compare generated metadata",
+      "limitation": "Requires unique stable native IDs and correct target schema"
+    },
+    {
+      "id": "E04",
+      "topic": "Compound gradient allocation",
+      "evidence": "static and host/build regression checkpoint",
+      "source_symbols": "xur_v8_counts.py / inspect_counts, repair_counts; test_xur_v8_counts.py",
+      "finding": "12 bytes per required compound entry; slot-3 count and offsets repaired",
+      "limitation": "Actual retail parser not included; 17559-specific schema"
+    },
+    {
+      "id": "E05",
+      "topic": "Provider/base path",
+      "evidence": "static and host regression checkpoint",
+      "source_symbols": "DashboardSceneRules.h / Provider, Matches; CustomSignin.cpp / Create; test_dashboard_scene_rules.cpp",
+      "finding": "Scoped replacement plus SET_BASE_PATH native restoration",
+      "limitation": "Exact ABI/module must be verified on target"
+    },
+    {
+      "id": "E06",
+      "topic": "Private skin/prefix",
+      "evidence": "static and host/build checkpoint",
+      "source_symbols": "build_dashboard_submenus.py / patch_skin; DashboardXui.h / Scene::Dispatch; DashboardHome.cpp / SubmenuPrefix",
+      "finding": "COLR-only edit; inherited prefix before INIT; preserve nonempty app prefix",
+      "limitation": "App-specific visual acceptance pending"
+    },
+    {
+      "id": "E07",
+      "topic": "Scene layout/header rules",
+      "evidence": "static and build checkpoint; latest cosmetic session report",
+      "source_symbols": "build_dashboard_scenes.py / scene; DashboardSceneRules.h / Decoration; CustomSignin.cpp / PrepareFrame",
+      "finding": "3 two-pane,99 native forms,15 helpers; retain native controls",
+      "limitation": "Latest outer-header duplication remains open"
+    },
+    {
+      "id": "E08",
+      "topic": "Rendering",
+      "evidence": "static and host regression checkpoint",
+      "source_symbols": "ColorHooks.cpp / ApplyColors, SubmenuColors; DashboardHome.cpp / Render; test_dashboard_focus_colors.py",
+      "finding": "Compose after native BeginRender; preserve alpha and EndRender restoration",
+      "limitation": "Verified message prefix only; hardware states individually accepted"
+    },
+    {
+      "id": "E09",
+      "topic": "Ownership and artwork",
+      "evidence": "static and host regression checkpoint",
+      "source_symbols": "DashboardHomeNative.cpp / ImageCache, Range, Entries; DashboardHomeModel.h / RecentModel",
+      "finding": "Copied data/session validation; bounded 8-MiB long-lived artwork",
+      "limitation": "No native pointers should cross model boundary; runtime timing still relevant"
+    },
+    {
+      "id": "E10",
+      "topic": "Home and libraries",
+      "evidence": "static and host regression checkpoint",
+      "source_symbols": "DashboardHomeModel.h / RecentModel; DashboardGamesLibrary.h; DashboardAppsLibrary.h; DashboardHomeNative.cpp",
+      "finding": "Recent dedup/sort/availability; native dispatch revalidation",
+      "limitation": "A recent tile does not prove current installation"
+    },
+    {
+      "id": "E11",
+      "topic": "Native routes",
+      "evidence": "host-tested checkpoint plus session-reported Xbox System observation",
+      "source_symbols": "DashboardHome.cpp / SelectNativeChannel, ReturnToNative, CompleteNativeRoute; DashboardNativeActions.h / ChannelItem; DashboardList.h / ItemText; test_dashboard_item_text.cpp",
+      "finding": "Restore origin then virtual indexed TRUE source text, discover index, SET_CURSEL, wait/press",
+      "limitation": "System observed does not certify every native action"
+    },
+    {
+      "id": "E12",
+      "topic": "Boot/sign-in",
+      "evidence": "static and host regression checkpoint",
+      "source_symbols": "CustomSignin.cpp / Create, PrepareCreatedScene; CustomSigninRules.h; CustomBootHandoff.h / Mask; build_dashboard.py",
+      "finding": "Loading animation, scoped sign-in slots, cover readiness and 8-second bridge",
+      "limitation": "Transition sequence acceptance depends on deployed build"
+    },
+    {
+      "id": "E13",
+      "topic": "Guide",
+      "evidence": "static and host/build checkpoint",
+      "source_symbols": "GuideMembers.h; GuideRouting.h / Find, OriginalBase; GuideReload.h; GuideStyles.h / ValidateArchive",
+      "finding": "72 members, exact/dynamic scope, safe archive/reload",
+      "limitation": "Remote services and per-child input/layout remain separate"
+    },
+    {
+      "id": "E14",
+      "topic": "Verification/deployment",
+      "evidence": "recorded implementation checkpoint; procedural guidance",
+      "source_symbols": "build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py",
+      "finding": "Reported 144 host tests; earlier release/117 roundtrips/readbacks",
+      "limitation": "Documentation publication did not rerun private suite/build/hardware"
+    },
+    {
+      "id": "E15",
+      "topic": "Open visual/UI work",
+      "evidence": "session-reported hardware/plan status",
+      "source_symbols": "Maintainer checkpoint dated 2026-10-25",
+      "finding": "Backdrop/mask deployed; duplicate outer header persists; sidebar planned",
+      "limitation": "Not independently re-observed during documentation authoring"
+    }
+  ]
+}
