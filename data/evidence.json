@@ -113,8 +113,8 @@
       "topic": "Verification/deployment",
       "evidence": "recorded implementation checkpoint; procedural guidance",
       "source_symbols": "build_dashboard.py; build_dashboard_scenes.py / stage; menu-coverage specification; test_dashboard_*.py",
-      "finding": "Reported 147 host tests; earlier release/117 roundtrips/readbacks",
-      "limitation": "147 host tests and Release/build validation rerun; new layout hardware acceptance pending"
+      "finding": "Reported 148 host tests; earlier release/117 roundtrips/readbacks",
+      "limitation": "148 host tests and Release/build validation rerun; new layout hardware acceptance pending"
     },
     {
       "id": "E15",

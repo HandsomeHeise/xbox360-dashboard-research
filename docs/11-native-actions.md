@@ -26,7 +26,7 @@ Retain the return page/focus for ordinary child navigation. Explicit Original sh
 
 ## Evidence
 
-A virtual-source fixture contains no child buttons and inserts Bing to catch fixed-index assumptions. A compiled message regression covers TRUE/FALSE, nonzero index, outer object, unhandled response and invalid arguments. Latest reported total: 147 host tests passed.
+A virtual-source fixture contains no child buttons and inserts Bing to catch fixed-index assumptions. A compiled message regression covers TRUE/FALSE, nonzero index, outer object, unhandled response and invalid arguments. Latest reported total: 148 host tests passed.
 
 A later System route was Xbox-observed after these corrections. Other actions still need individual acceptance. Run python examples/route_model.py for an original SDK-free model of restoration and discovered-index selection.
 

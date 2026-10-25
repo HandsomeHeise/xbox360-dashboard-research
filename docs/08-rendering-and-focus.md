@@ -23,3 +23,9 @@ Focused/selected/pressed/disabled controls can change frames, animation or proto
 Shared palette entries require targeted contrast. Scope overrides to owned submenu sessions; common IDs can also exist on unrelated screens.
 
 Mask the native homepage only while a valid private cover exists. Missing cover, invalidation or timeout must release the mask to a usable UI. The duplicated outer header is still an open cosmetic finding; broad masks can hide needed confirmations/status, so locate the actual host first.
+
+## Paint order can hide a valid focus state
+
+A category row rebuilt both its opaque background and focus figure by inserting each at the same child index. The resulting order painted the background after the focus, so the selected row changed internally but had no visible highlight. Preserve each replaced object’s original paint index: opaque background first, focus fill second, text/image presenters last. Check order as well as frame names and keyed opacity.
+
+A separate non-hittable marker outside the opaque row paint can retain category selection when keyboard/controller focus moves into the options workspace. Read the native selected index, bound it to the fixed visible category range, and hide the marker on invalid selection. This supplements focus; it does not become another controller or action. The corrected build has148 host tests; Xbox visual acceptance remains separate.
